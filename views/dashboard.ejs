@@ -1,0 +1,12 @@
+<h2>Todo Dashboard</h2>
+
+<form action="/add" method="POST">
+  <input type="text" name="text" placeholder="Enter todo" required>
+  <button>Add</button>
+</form>
+
+<ul>
+  <% todos.forEach(todo => { %>
+    <li><%= todo.text %></li>
+  <% }) %>
+</ul>
