@@ -1,3 +1,0 @@
-# ejs-todo-app
-
-
